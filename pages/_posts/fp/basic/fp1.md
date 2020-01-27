@@ -5,6 +5,7 @@ categories:
   - javascript
   - functional
 slug: 01-함수형-자바스크립트-기본기
+featured: true
 ---
 
 ## 일급 함수
