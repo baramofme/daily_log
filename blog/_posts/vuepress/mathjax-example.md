@@ -7,6 +7,8 @@ tags:
   - example
 categories:
   - maths
+location: Hangzhou
+image: https://www.mathjax.org/badge/mj-logo.svg
 ---
 
 # maxjax 예시

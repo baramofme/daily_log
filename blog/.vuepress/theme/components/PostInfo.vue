@@ -2,7 +2,7 @@
   <div class="ui-post-info d-flex">
     <div class="post-info-item">
       <CalendarIcon />
-      {{ new Date(date.trim()).toDateString() }}
+      {{ createdDate }}
     </div>
     <div
       class="post-info-item"
@@ -23,7 +23,13 @@ import { NavigationIcon, ClockIcon, CalendarIcon } from "vue-feather-icons";
 
 export default {
   components: { NavigationIcon, ClockIcon, CalendarIcon },
-  props: ["date", "timeToRead", "location"]
+  props: ["date", "timeToRead", "location"],
+  computed:{
+    createdDate(){
+      if(this.date) return new Date(this.date.trim()).toDateString();
+      return '';
+    },
+  },
 };
 </script>
 

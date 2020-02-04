@@ -30,7 +30,7 @@
           slot="header"
           class="clearfix"
         >
-          <h5 class="m-0">Read More</h5>
+          <h5 class="m-0">더 읽기</h5>
         </div>
         <FeaturedPosts class="my-4" />
       </el-card>
@@ -39,7 +39,7 @@
           slot="header"
           class="clearfix"
         >
-          <h5 class="m-0">Tags</h5>
+          <h5 class="m-0">태그</h5>
         </div>
         <div>
           <router-link
@@ -57,7 +57,7 @@
             slot="header"
             class="clearfix"
           >
-            <h5 class="m-0">Leave a comment!</h5>
+            <h5 class="m-0">댓글 남기기!</h5>
           </div>
           <Disqus
             :shortname="$themeConfig.disqus"

@@ -44,7 +44,7 @@
     <div class="d-flex justify-content-end text-secondary p-4 mt-2 border-top border-light">
       <PostInfo
         :date="post.frontmatter.date"
-        :timeToRead="post.readingTime.text"
+        :timeToRead="readingTime"
         :location="post.frontmatter.location"
       />
     </div>
@@ -59,6 +59,12 @@ export default {
   props: ['post'],
   components: {
     PostInfo
+  },
+  computed:{
+    readingTime(){
+      if(this.post.readingTime && this.post.readingTime.text ) return this.post.readingTime.text;
+      return '0';
+    }
   },
   methods: {
     go (path) {

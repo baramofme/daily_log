@@ -19,7 +19,7 @@
           <router-link
             :to="post.path"
             class="el-button el-button--primary"
-          >Read this Post <i class="el-icon-arrow-right"></i></router-link>
+          >이 글 읽기<i class="el-icon-arrow-right"></i></router-link>
         </div>
       </el-carousel-item>
     </el-carousel>

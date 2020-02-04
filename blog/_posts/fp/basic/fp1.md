@@ -7,6 +7,16 @@ author: ULIVZ
 date: 2019-5-6
 ---
 
+<mermaid>
+graph TD
+  A[Silvester] -->|Get money| B(Go shopping)
+  B --> C{Let me think}
+  C -->|One| D[Laptop]
+  C -->|Two| E[iPhone]
+  C -->|Three| F[Car]
+  C -->|Four| F[Mac]
+</mermaid>
+
 ## 일급 함수
 
 - 값으로 다뤄질 수 있다.

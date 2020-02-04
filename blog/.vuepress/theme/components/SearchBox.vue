@@ -6,7 +6,7 @@
       v-model="query"
       size="small"
       :fetch-suggestions="querySearchAsync"
-      placeholder="Search"
+      placeholder="검색"
       @select="handleSelect"
       popper-class="components-search"
       :trigger-on-focus="false"
