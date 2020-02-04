@@ -7,7 +7,7 @@ var { Conso } = require("./vue-conso");
 // import { Conso } from "vue-conso";
 
 export default {
-  name: "consol-box",
+  name: "ConsoleBox",
   props: {
     initScript: Array
   },

@@ -9,7 +9,11 @@
   "dependencies": {
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "mermaid": "^8.2.6"
+    "markdown-it-admonition": "^1.0.4",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-plantuml": "^1.4.1",
+    "mermaid": "^8.2.6",
+    "vuepress-theme-modern-blog": "^2.4.1"
   },
   "devDependencies": {
     "vuepress": "1.2.0"

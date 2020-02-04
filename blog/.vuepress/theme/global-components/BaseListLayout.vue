@@ -13,7 +13,7 @@
         <a
           href="#posts"
           class="el-button el-button--primary my-3"
-        >Latest Posts</a>
+        >최근 게시글</a>
       </div>
     </header>
     <featured-posts class="my-5 d-sm-none d-lg-block"></featured-posts>

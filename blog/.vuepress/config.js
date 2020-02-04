@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
   title: "일용직 자판 노동자 일지",
   description: "1세계 바깥에 존재하는 누군가의 기록 장소",
@@ -11,6 +12,11 @@ module.exports = {
         text: "홈",
         link: "/",
         icon: "el-icon-house"
+      },
+      {
+        text: 'JS',
+        link: "/category/javascript/",
+        icon: "el-icon-folder"
       },
       {
         text: "프로젝트들",
@@ -58,6 +64,14 @@ module.exports = {
           link: ""
         }
       ]
+    }
+  },
+  markdown: {
+    extendMarkdown: md => {
+      md.set({ html: true });
+      md.use(require('markdown-it-katex'));
+      md.use(require('markdown-it-plantuml'));
+      md.use(require('markdown-it-admonition'))
     }
   }
 }

@@ -1,10 +1,11 @@
 ---
 date: 2018-11-7
-tag: 
+tags: 
   - frontmatter
   - vuepress
 author: ULIVZ
-location: Hangzhou  
+location: Hangzhou
+image: https://vuepress.vuejs.org/hero.png
 ---
 
 # Front Matter in VuePress

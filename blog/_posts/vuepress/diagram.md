@@ -2,7 +2,7 @@
 date: 2020-01-27
 layout: post
 author: 누군가
-tag:
+tags:
   - example
 description: vuepress 에서 다이어그램 사용 법
 location: Hangzhou

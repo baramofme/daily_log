@@ -50,6 +50,16 @@ module.exports = (themeConfig, ctx) => {
         pagination: {
           lengthPerPage: 5
         }
+      },
+      {
+        id: "category",
+        keys: ["category", "categories"],
+        path: "/category/",
+        // layout: 'Tag',  defaults to `FrontmatterKey.vue`
+        frontmatter: { title: "Category" },
+        pagination: {
+          lengthPerPage: 5
+        }
       }
     ]
   };
@@ -137,7 +147,7 @@ module.exports = (themeConfig, ctx) => {
     if (themeConfig.summary) {
       pageCtx.summary =
         removeMd(
-            sanitizedContent    
+            sanitizedContent
             .slice(0, themeConfig.summaryLength)
         ) + " ...";
     };

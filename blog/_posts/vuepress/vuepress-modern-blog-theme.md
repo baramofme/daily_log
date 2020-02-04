@@ -1,6 +1,6 @@
 ---  
 date: 2019-10-14
-tag:
+tags:
 - vue.js
 - blog
 - vuepress
@@ -9,7 +9,7 @@ tag:
 title: Create a modern vuepress blog in 5 minutes!
 author: Ahmad Mostafa
 location: Irbid-Jordan
-image: https://i.picsum.photos/id/79/800/600.jpg
+image: https://vuepress.vuejs.org/hero.png
 ---
 
 

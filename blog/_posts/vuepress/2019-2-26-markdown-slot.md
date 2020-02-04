@@ -1,10 +1,11 @@
 ---
 date: 2019-2-26
-tag: 
+tags: 
   - markdown
   - vuepress
 author: ULIVZ
 location: Hangzhou  
+image: https://vuepress.vuejs.org/hero.png
 ---
 
 # Markdown Slot
