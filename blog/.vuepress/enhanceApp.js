@@ -2,7 +2,8 @@ import Vuex from 'vuex'
 
 import VueChartkick from 'vue-chartkick'
 import Chart from 'chart.js'
-import VueGoodTablePlugin from 'vue-good-table';
+
+import VueGoodTable from 'vue-good-table';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -13,6 +14,6 @@ export default ({
   // ...apply enhancements to the app
   Vue.use(Vuex)
   Vue.use(VueChartkick, {adapter: Chart})
-  Vue.use(VueGoodTablePlugin)
+  Vue.use(VueGoodTable)
   Vue.mixin({})
 }

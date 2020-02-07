@@ -5292,7 +5292,7 @@ merge2@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.2.3.tgz#7ee99dbd69bb6481689253f018488a1b902b0ed5"
 
-mermaid@^8.2.6:
+mermaid@^8.2.6, mermaid@^8.4.3:
   version "8.4.6"
   resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-8.4.6.tgz#b51c15e0c8861e410c7b7a7d24d0bb9955735e78"
   integrity sha512-6YQBkXfvhfjKIzRhtqbCics3pJurGrJAYEeqgyRcDZeTHQ/WCB2Bh/4wdAOho1Uffe0jXB+HjmHT5kEUOxudJw==
@@ -8442,7 +8442,7 @@ vue-feather-icons@^4.21.0:
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.2"
 
-vue-good-table@^2.18.1:
+vue-good-table@^2.18.0, vue-good-table@^2.18.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/vue-good-table/-/vue-good-table-2.18.1.tgz#1d8f19bd82e04bf43822c980c30cde0515640641"
   integrity sha512-W9D5M87GgzgQowtWVARqxSwSvHx0MKnKV5d9Zlz5Fx3XfuJWm4lufZUpWlTwKTbLWoG4cLjHd6N0m55S9Ild3Q==
@@ -8636,6 +8636,22 @@ vuepress-plugin-social-share@^0.0.6:
   dependencies:
     "@goy/vuepress-plugin-svg-icons" "^3.1.1"
 
+vuepress-theme-cool@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-cool/-/vuepress-theme-cool-1.3.0.tgz#999c987e21d6003eaf24e0d8f6a4019686e9ec4b"
+  integrity sha512-lsV8022f3lg4gpCVWbc9imnIT/fgV3afTO/NQkT+lmoCCDJ9WH35u3EnYIhbGQ0Zp+RtTLXojzKSl/O5mpdiWA==
+  dependencies:
+    chart.js "^2.9.3"
+    markdown-it-admonition "^1.0.4"
+    markdown-it-katex "^2.0.3"
+    markdown-it-plantuml "^1.4.1"
+    markdown-it-task-lists "^2.1.1"
+    mermaid "^8.4.3"
+    vue-chartkick "^0.6.0"
+    vue-cute-timeline "^1.2.8"
+    vue-good-table "^2.18.0"
+    vuex "^3.1.1"
+
 vuepress-theme-modern-blog@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/vuepress-theme-modern-blog/-/vuepress-theme-modern-blog-2.4.1.tgz#db3a32f96c4ce102113ad2243eb8363a945b6f7d"
@@ -8702,7 +8718,7 @@ vuetify@^2.1.15:
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.2.8.tgz#9e9105503d38e66c0fad27aba08de5e65ff6ba99"
   integrity sha512-qeN+X/6L1Xi3Mmog9PMDUKYjC2ZOk3trl7/vDMuP0gcH1QReKb9tqpLjAyP8niOgnvZcUQw4jSc7e4Esju8Seg==
 
-vuex@^3.1.2:
+vuex@^3.1.1, vuex@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.2.tgz#a2863f4005aa73f2587e55c3fadf3f01f69c7d4d"
   integrity sha512-ha3jNLJqNhhrAemDXcmMJMKf1Zu4sybMPr9KxJIuOpVcsDQlTBYLLladav2U+g1AvdYDG5Gs0xBTb0M5pXXYFQ==
