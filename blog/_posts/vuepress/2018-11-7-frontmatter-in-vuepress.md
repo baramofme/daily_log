@@ -1,5 +1,7 @@
 ---
-date: 2018-11-7
+date: 2018-11-07
+categories:
+  - vuepress
 tags: 
   - frontmatter
   - vuepress

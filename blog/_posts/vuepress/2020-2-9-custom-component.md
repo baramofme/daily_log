@@ -1,23 +1,23 @@
 ---
-date: 2020-01-27
+date: 2020-02-09
 layout: post
-excerpt: Charts And Math
+title: 블로그 설명서 - 커스텀 컴포넌트
 author: 누군가
-tags:
-  - example
 categories:
-  - maths
-location: Hangzhou
+  - vuepress
+tags:
+  - custom-component
+location: Seoul
 image: https://www.mathjax.org/badge/mj-logo.svg
 ---
 
-# Custom Components
+# 커스텀 컴포넌트
 
-## Tables
+## 테이블
 
 <my-component/>
 
-### Table Component Code
+### 테이블 컴포넌트 코드
 
 The code for table component is listed below
 ```vue
@@ -74,7 +74,7 @@ export default {
 </script>
 ```
 
-Since package css cannot be important inside an component, another component is needed
+패키지 css 는 컴포넌트 내부에서 임포트 될 수 없기 때문에 또다른 컴포넌트가 필요하다.
 
 ```js
 <script>
@@ -89,7 +89,7 @@ export default {
 </style>
 ```
 
-## TimeLine
+## 타임라인
 
 An example timeline of the courses I took
 
@@ -98,7 +98,7 @@ An example timeline of the courses I took
 Nice timeline :rocket:
 
 
-## Quiz
+## 퀴즈
 
 The way this is implemented requires the definition of `json` files containing a certain format.
 
@@ -213,61 +213,121 @@ The tasks listed below are expected to be done by the end of the term ENGR 004, 
 - [ ] Consider using [GitHub - thomasreinecke/git-playbook: GIT Playbook is a documentation framework that allows you to create Documentation for your project using Markdown and GH-Pages rapidly](https://github.com/thomasreinecke/git-playbook) as a good final repo for all of my documentation, particularly when it comes to searching for things.
 !!!
 
-## Badges <p class="badge warning">Warning</p>
+## Build-in admonitions Middle badge
 
-<badge class="warning">warning </badge>
+```
+!!! <admonition type> <Admonition title>
+Admonition content
+!!!
+```
 
+```
+!!! note Testing Notes
+Good Note
+!!!
+```
 
-<span class="badge badge-default">New</span>
+!!! note Testing Notes
+Good Note
+!!!
 
-<span class="badge error">ERROR</span>
-$x^2=4$
+```
+!!! abstract Course Outline
+This is an abstract
+!!!
+```
 
-$$x^5 = 5$$
+!!! abstract Course Outline
+This is an abstract
+!!!
 
-## Build-in admonitions <Badge vertical="middle">Middle badge</Badge>
+```
+!!! info Information
+Info icon
+!!!
+```
 
-::: tip
-This is a tip
-:::
+!!! info Information
+Info icon
+!!!
 
-::: warning
-This is a warning
-:::
+```
+!!! tip Cool
+This is a tip.
+!!!
+```
 
-::: danger
-This is a dangerous warning
-:::
+!!! tip Cool
+This is a tip.
+!!!
 
-::: tip
-This is a tip
-:::
+```
+!!! success SUCCESS Thing
+This is a success box
+!!!
+```
 
-::: warning
-This is a warning
-:::
+!!! success SUCCESS Thing
+This is a success box
+!!!
 
-::: danger STOP
-This is a dangerous warning
-:::
+!!! question Cool Question
+I have questions
+!!!
 
-Some other good examples can be found at https://vuepress-examples.netlify.com/
+```
+!!! warning A good warning
+Example of a warning
+!!!
+```
 
-## ReadMe
+!!! warning A good warning
+Example of a warning
+!!!
 
-This is an example of how to use the `vuepress-theme-cool` vuepress theme, look into docs for example files.
+```
+!!! failure I failed
+Fail in life.
+!!!
+```
 
-## Installation and Running
+!!! failure I failed
+Fail in life.
+!!!
 
-To install:
+```
+!!! danger More danger
+DANGEROUS
+!!!
+```
 
-`npm install`
+!!! danger More danger
+DANGEROUS
+!!!
 
-To run:
+```
+!!! bug Software Bug
+I love bugs
+!!!
+```
+!!! bug Software Bug
+I love bugs
+!!!
 
-`npm run docs:dev`
+```
+!!! example Example 1.1
+$$x^2=6.5*5$$
+!!!
+```
+!!! example Example 1.1
+$$x^2=6.5*5$$
+!!!
 
-
-## Customization
-
-Most of the customization is done in `config.js`, automatic navbar and sidebar navigation is available in `config-other.js`
+```
+!!! quote Qutation
+Quote 1.1
+!!!
+```
+!!! quote Qutation
+Quote 1.1
+!!!

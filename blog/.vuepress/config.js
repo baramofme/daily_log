@@ -9,6 +9,17 @@ module.exports = {
         ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'}],
         ['link', {href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet'}]
     ],
+    plugins: [
+        [
+            'vuepress-plugin-mathjax',
+            {
+                target: 'svg',
+                macros: {
+                    '*': '\\times',
+                },
+            },
+        ],
+    ],
     summaryLength: 500,
     themeConfig: {
         summary: true,
@@ -74,7 +85,6 @@ module.exports = {
     markdown: {
         extendMarkdown: md => {
             md.set({html: true});
-            md.use(require('markdown-it-katex'));
             md.use(require('markdown-it-plantuml'));
             md.use(require('markdown-it-admonition'));
             md.use(require('markdown-it-task-lists'));
