@@ -1,13 +1,13 @@
 ---
 title: 지금부터 다시 블로그를 운영해볼 생각이다
-date: 2020-2-8
+date: 2020-02-08
 categories:
   - lifestyle
 tags: 
   - diary
 author: 이지훈
 location: seoul  
-image: https://cdn.pixabay.com/photo/2020/02/04/09/50/the-alps-4817766_960_720.jpg
+image: https://cdn.pixabay.com/photo/2019/07/19/19/08/building-4349452_960_720.jpg
 ---
 
 옛날부터 블로그 활동을 해왔으나 서비스(또는 엔진)을 옮겨다니면서 자료가 매번 손실됐다. 그래서 이번에도 새로 시작.

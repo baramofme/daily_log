@@ -1,6 +1,6 @@
 ---
 title: 소규모 재건축 조합 설립 총회 연기 안견 변경 등이 가능한가?
-date: 2020-2-8
+date: 2020-02-10
 categories:
   - lifestyle
 tags: 
@@ -8,7 +8,7 @@ tags:
   - reconstruction
 author: 이지훈
 location: seoul  
-image: https://cdn.pixabay.com/photo/2019/07/19/19/08/building-4349452_960_720.jpg
+image: https://cdn.pixabay.com/photo/2020/02/04/09/50/the-alps-4817766_960_720.jpg
 ---
 
 ## 정황
